@@ -18,6 +18,10 @@ _index_mappings = {
                 'type': 'long',
                 'index':'false'
             },
+            'click': {
+                'type': 'long',
+                'index': 'false'
+            },
             'title': {
                 'type': 'text'
             },
@@ -28,7 +32,7 @@ _index_mappings = {
                 "type": "keyword",  # keyword不会进行分词,text会分词
                  "index": "false"  # 不建索引
             },
-            "createTime": {
+            "createtime": {
                 "type": "date",
                 "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
             },

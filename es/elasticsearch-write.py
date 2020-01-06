@@ -7,6 +7,7 @@ index_text ={
               "title":"这是标题",
               "content":"这是一段测试文档",
               "createTime" :"2020-01-05",
+            "click":100
 
                 }
 es.index(index="test_index",body = index_text)

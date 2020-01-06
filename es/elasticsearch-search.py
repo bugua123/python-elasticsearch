@@ -234,11 +234,25 @@ c = es.count(index='test_index')
 print(c)
 
 # 短语匹配 match_phrase (搜索is a little的短语,不进行切分)
-res = es.search(index='test_index', size=20, body={
+doc={
     "query": {
         "match_phrase": {
             "title": "这是标题"
         }
     }
-})
+}
+res = es.search(index='test_index', size=20, body=doc)
+print(res)
+
+
+# from、size
+#from：从“第几条”开始查询, size：查询多少条
+doc={
+    "query": {
+        "match_all": {}
+    },
+    "size": 1,
+    "from": 2
+}
+res = es.search(index='test_index', body =doc )
 print(res)

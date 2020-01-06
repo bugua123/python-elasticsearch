@@ -18,7 +18,7 @@ index_text2 ={
               "title":"这是标题bulk2",
               "content":"这是一段测试文档",
               "createTime" :"2020-01-05",
-
+                "click": 50
                 }
 indexs.append(index_text)
 indexs.append(index_text2)
