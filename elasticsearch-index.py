@@ -18,8 +18,11 @@ _index_mappings = {
                 'type': 'long',
                 'index':'false'
             },
+            'title': {
+                'type': 'text'
+            },
             'content': {
-                'type': 'keyword'
+                'type': 'text'
             },
             "serial": {
                 "type": "keyword",  # keyword不会进行分词,text会分词
