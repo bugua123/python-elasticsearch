@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d484942-f489-4ca7-8f5e-fb5a03c5aa46" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/es/elasticsearch-search.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es/elasticsearch-blukwrite.py" afterPath="$PROJECT_DIR$/es/elasticsearch-blukwrite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es/elasticsearch-index.py" afterPath="$PROJECT_DIR$/es/elasticsearch-index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es/elasticsearch-search.py" afterPath="$PROJECT_DIR$/es/elasticsearch-search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es/elasticsearch-write.py" afterPath="$PROJECT_DIR$/es/elasticsearch-write.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/es/elasticsearch-aggregation.py" afterPath="$PROJECT_DIR$/es/6-elasticsearch-aggregation.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/es/elasticsearch-blukwrite.py" afterPath="$PROJECT_DIR$/es/4-elasticsearch-blukwrite.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/es/elasticsearch-del.py" afterPath="$PROJECT_DIR$/es/5-elasticsearch-del.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/es/elasticsearch-index.py" afterPath="$PROJECT_DIR$/es/2-elasticsearch-index.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/es/elasticsearch-test.py" afterPath="$PROJECT_DIR$/es/1-elasticsearch-test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/es/elasticsearch-write.py" afterPath="$PROJECT_DIR$/es/3-elasticsearch-write.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +76,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="elasticsearch-test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es/elasticsearch-test.py">
+      <file leaf-file-name="1-elasticsearch-test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es/1-elasticsearch-test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
@@ -83,8 +86,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elasticsearch-blukwrite.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es/elasticsearch-blukwrite.py">
+      <file leaf-file-name="4-elasticsearch-blukwrite.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es/4-elasticsearch-blukwrite.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -95,8 +98,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elasticsearch-aggregation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es/elasticsearch-aggregation.py">
+      <file leaf-file-name="6-elasticsearch-aggregation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es/6-elasticsearch-aggregation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1584">
               <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
@@ -105,8 +108,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elasticsearch-del.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es/elasticsearch-del.py">
+      <file leaf-file-name="5-elasticsearch-del.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es/5-elasticsearch-del.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
               <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
@@ -115,8 +118,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elasticsearch-index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es/elasticsearch-index.py">
+      <file leaf-file-name="2-elasticsearch-index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es/2-elasticsearch-index.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1034">
               <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
@@ -125,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elasticsearch-search.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/es/elasticsearch-search.py">
+      <file leaf-file-name="7-elasticsearch-search.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es/7-elasticsearch-search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="266" column="7" lean-forward="true" selection-start-line="266" selection-start-column="7" selection-end-line="266" selection-end-column="7" />
+            <state relative-caret-position="286">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -338,7 +341,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-elasticsearch" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/es/elasticsearch-search.py" />
+      <option name="SCRIPT_NAME" value="E:\gitspace\python-elasticsearch\es\7-elasticsearch-search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,7 +360,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-elasticsearch" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/es/elasticsearch-index.py" />
+      <option name="SCRIPT_NAME" value="E:\gitspace\python-elasticsearch\es\2-elasticsearch-index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,7 +379,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-elasticsearch" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/es/elasticsearch-blukwrite.py" />
+      <option name="SCRIPT_NAME" value="E:\gitspace\python-elasticsearch\es\4-elasticsearch-blukwrite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,7 +398,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-elasticsearch" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/es/elasticsearch-aggregation.py" />
+      <option name="SCRIPT_NAME" value="E:\gitspace\python-elasticsearch\es\6-elasticsearch-aggregation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -414,7 +417,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-elasticsearch" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/es/elasticsearch-write.py" />
+      <option name="SCRIPT_NAME" value="E:\gitspace\python-elasticsearch\es\3-elasticsearch-write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -613,6 +616,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568769724551</updated>
     </task>
+    <task id="LOCAL-00001" summary="elasticsearch search">
+      <created>1578365104217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578365104217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -623,7 +634,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40063593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18759936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -645,6 +656,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="elasticsearch search" />
+    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-test.py">
+    <entry file="file://$PROJECT_DIR$/es/1-elasticsearch-test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
@@ -753,7 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-aggregation.py">
+    <entry file="file://$PROJECT_DIR$/es/6-elasticsearch-aggregation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
@@ -761,14 +776,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-write.py">
+    <entry file="file://$PROJECT_DIR$/es/3-elasticsearch-write.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-del.py">
+    <entry file="file://$PROJECT_DIR$/es/5-elasticsearch-del.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
@@ -776,7 +792,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-blukwrite.py">
+    <entry file="file://$PROJECT_DIR$/es/4-elasticsearch-blukwrite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -786,7 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-index.py">
+    <entry file="file://$PROJECT_DIR$/es/2-elasticsearch-index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
@@ -794,10 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es/elasticsearch-search.py">
+    <entry file="file://$PROJECT_DIR$/es/7-elasticsearch-search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="266" column="7" lean-forward="true" selection-start-line="266" selection-start-column="7" selection-end-line="266" selection-end-column="7" />
+        <state relative-caret-position="286">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding />
         </state>
       </provider>
