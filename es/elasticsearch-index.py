@@ -19,8 +19,8 @@ _index_mappings = {
                 'index':'false'
             },
             'click': {
-                'type': 'long',
-                'index': 'false'
+                'type': 'int',
+
             },
             'title': {
                 'type': 'text'

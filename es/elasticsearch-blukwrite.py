@@ -10,15 +10,15 @@ index_text ={
               "serial":"版本2",
               "title":"这是标题bulk",
               "content":"这是一段测试文档",
-              "createTime" :"2020-01-05",
-
+              "createtime" :"2020-01-05",
+                "click": 50,
                 }
 index_text2 ={
               "serial":"版本3",
               "title":"这是标题bulk2",
               "content":"这是一段测试文档",
-              "createTime" :"2020-01-05",
-                "click": 50
+              "createtime" :"2020-01-05",
+                "click": 50,
                 }
 indexs.append(index_text)
 indexs.append(index_text2)

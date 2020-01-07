@@ -213,46 +213,90 @@ es = Elasticsearch(['127.0.0.1:9200'])
 # print(res)
 
 #排序
-doc={
-    "query": {
-        "wildcard": {
-            "title": "标题*"
-        }
-    },
-    "sort": {
-        "createTime": {
-            "order": "desc" #降序
-        }
-    }
-}
-
-res = es.search(index='test_index', size=20, body=doc)
-print(res)
-
-# count, 执行查询并获取该查询的匹配数
-c = es.count(index='test_index')
-print(c)
-
-# 短语匹配 match_phrase (搜索is a little的短语,不进行切分)
-doc={
-    "query": {
-        "match_phrase": {
-            "title": "这是标题"
-        }
-    }
-}
-res = es.search(index='test_index', size=20, body=doc)
-print(res)
+# doc={
+#     "query": {
+#         "wildcard": {
+#             "title": "标题*"
+#         }
+#     },
+#     "sort": {
+#         "createtime": {
+#             "order": "desc" #降序
+#         }
+#     }
+# }
+#
+# res = es.search(index='test_index', size=20, body=doc)
+# print(res)
+#
+# # count, 执行查询并获取该查询的匹配数
+# c = es.count(index='test_index')
+# print(c)
+#
+# # 短语匹配 match_phrase (搜索is a little的短语,不进行切分)
+# doc={
+#     "query": {
+#         "match_phrase": {
+#             "title": "这是标题"
+#         }
+#     }
+# }
+# res = es.search(index='test_index', size=20, body=doc)
+# print(res)
 
 
 # from、size
 #from：从“第几条”开始查询, size：查询多少条
+# doc={
+#     "query": {
+#         "match_all": {}
+#     },
+#     "size": 1,
+#     "from": 2
+# }
+# res = es.search(index='test_index', body =doc )
+# print(res)
+
+#range 范围查找
 doc={
-    "query": {
-        "match_all": {}
-    },
-    "size": 1,
-    "from": 2
+  "query": {
+    "range": {
+      "click": {
+        "gt": 30,
+        "lt": 60
+      }
+    }
+  }
 }
-res = es.search(index='test_index', body =doc )
+
+res=es.search(index="test_index",body=doc)
+print(res)
+
+# Highlight Search(高亮检索)
+# doc={
+#     "query": {
+#         "match": {"title": "标题"}
+#     },
+#     "from": 0,
+#     "size": 1,
+#     "highlight": {
+#         "fields": {"title": {}}
+#     },
+#     "_source": ["title", "content"]
+# }
+# res=es.search(index="test_index",body=doc)
+# print(res)
+
+#范围查询（range query）
+doc={
+  "query": {
+    "range": {
+      "click": {
+          "lte": 60
+
+      }
+    }
+  }
+}
+res=es.search(index="test_index",body=doc)
 print(res)

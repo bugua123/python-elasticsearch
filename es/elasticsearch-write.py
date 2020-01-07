@@ -6,7 +6,7 @@ index_text ={
               "serial":"版本1",
               "title":"这是标题",
               "content":"这是一段测试文档",
-              "createTime" :"2020-01-05",
+              "createtime" :"2020-01-05",
             "click":100
 
                 }
