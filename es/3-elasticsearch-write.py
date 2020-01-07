@@ -10,4 +10,5 @@ index_text ={
             "click":100
 
                 }
-es.index(index="test_index",body = index_text)
+res=es.index(index="test_index",body = index_text)
+print(res)
