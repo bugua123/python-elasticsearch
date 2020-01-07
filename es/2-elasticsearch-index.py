@@ -54,3 +54,6 @@ else:
 # #删除索引
 # result = es.indices.delete(index='test_index', ignore=[400, 404])
 # print(result)
+
+
+# 待补充复杂索引建立
