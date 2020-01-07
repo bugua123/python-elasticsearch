@@ -11,7 +11,8 @@ index_text ={
               "title":"这是标题bulk",
               "content":"这是一段测试文档",
               "createtime" :"2020-01-05",
-                "click": 50,
+                "click": 300,
+                 "category": "新闻"
                 }
 index_text2 ={
               "serial":"版本3",
@@ -19,6 +20,7 @@ index_text2 ={
               "content":"这是一段测试文档",
               "createtime" :"2020-01-05",
                 "click": 50,
+                 "category": "体育"
                 }
 indexs.append(index_text)
 indexs.append(index_text2)

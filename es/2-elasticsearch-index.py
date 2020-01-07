@@ -19,7 +19,7 @@ _index_mappings = {
                 'index':'false'
             },
             'click': {
-                'type': 'int',
+                'type': 'integer',
 
             },
             'title': {
@@ -31,6 +31,9 @@ _index_mappings = {
             "serial": {
                 "type": "keyword",  # keyword不会进行分词,text会分词
                  "index": "false"  # 不建索引
+            },
+            "category": {
+                "type": "keyword",  # keyword不会进行分词,text会分词
             },
             "createtime": {
                 "type": "date",
