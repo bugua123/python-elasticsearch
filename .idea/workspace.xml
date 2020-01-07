@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d484942-f489-4ca7-8f5e-fb5a03c5aa46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/8-elasticsearch-update.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/9-elasticsearch-mget.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es/3-elasticsearch-write.py" afterPath="$PROJECT_DIR$/es/3-elasticsearch-write.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/es/4-elasticsearch-blukwrite.py" afterPath="$PROJECT_DIR$/es/4-elasticsearch-bluk.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -131,8 +127,8 @@
       <file leaf-file-name="9-elasticsearch-mget.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/es/9-elasticsearch-mget.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="143">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -668,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578379953918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="elasticsearch mget">
+      <created>1578385187992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578385187992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -705,7 +708,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="elasticsearch search" />
     <MESSAGE value="elasticsearch aggregation" />
-    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch aggregation" />
+    <MESSAGE value="elasticsearch mget" />
+    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch mget" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/es/9-elasticsearch-mget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="143">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
