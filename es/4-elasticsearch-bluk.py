@@ -26,3 +26,5 @@ indexs.append(index_text)
 indexs.append(index_text2)
 res,_=bulk(es,indexs,index='test_index',raise_on_error=True)
 print(res)
+
+# 批量 删除等操作 后面补充
