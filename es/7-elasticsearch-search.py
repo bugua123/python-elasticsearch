@@ -343,3 +343,13 @@ doc={
 }
 res=es.search(index="test_index",body=doc)
 print(res)
+
+#profile
+doc={
+  "profile": "true",
+  "query" : {
+    "match" : { "title" : "这是标题" }
+  }
+}
+res=es.search(index="test_index",body=doc)
+print(res)
