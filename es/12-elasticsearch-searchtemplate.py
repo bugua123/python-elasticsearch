@@ -17,8 +17,8 @@ doc={
         "my_size" : 5
     }
 }
-res=es.search_template(index="test_index",body=doc)
-print(res)
+# res=es.search_template(index="test_index",body=doc)
+# print(res)
 
 
 #建立查询模板
@@ -34,12 +34,12 @@ doc={
         }
     }
 }
-res=es.put_script("search_template",body=doc)
-print(res)
+# res=es.put_script("search_template",body=doc)
+# print(res)
 
-#查询查询模板
-res=es.get_script("search_template")
-print(res)
+#查询 查询模板
+# res=es.get_script("search_template")
+# print(res)
 
 #删除查询模板
 # es.delete_script("search_template")
@@ -51,5 +51,19 @@ doc={
         "query_string":"这是标题"
     }
 }
-res=es.search_template(index="test_index",body=doc)
+# res=es.search_template(index="test_index",body=doc)
+# print(res)
+
+
+#给模板提供给定参数
+doc={
+  "source": "{ \"query\": { \"terms\": {{#toJson}}statuses{{/toJson}} }}",
+  "params": {
+    "statuses" : {
+        "status": [ "pending", "published" ]
+    }
+  }
+}
+
+res=es.render_search_template(body=doc)
 print(res)
